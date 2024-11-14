@@ -17,7 +17,7 @@ with open(path_to_insurance, 'rb') as f_s: # orig: insurance.json
     corpus_dict_insurance = json.load(f_s)
     corpus_dict_insurance = {int(key): value for key, value in corpus_dict_insurance.items()}
 
-path_to_finance = "./processed_reference/finance.json"
+path_to_finance = "./processed_reference/finance.json" 
 with open(path_to_finance, 'rb') as f_s: # orig: cleaned_finance.json
     corpus_dict_finance = json.load(f_s)  # 讀取參考資料文件
     corpus_dict_finance = {int(key): value for key, value in corpus_dict_finance.items()}
