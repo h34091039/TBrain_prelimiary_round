@@ -1,0 +1,12 @@
+pdfplumber
+tqdm
+rank_bm25
+jieba
+pandas
+pytesseract
+pdf2image 
+pillow
+opencv-python  
+numpy
+flagembedding
+torch
